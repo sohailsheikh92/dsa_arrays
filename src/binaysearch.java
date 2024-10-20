@@ -16,6 +16,7 @@ public class binaysearch {
             }
         }
         return -1;
+        //end of program
     }
 
     public static void main(String[] args) {
