@@ -29,13 +29,31 @@ public class arr {
         }
     }
 
+    static int minDiff(int arr[])
+    {
+        int n=arr.length;
+        int ans=Integer.MAX_VALUE;
+        if(n==1)
+            return ans;
+        for(int i=0;i<n;i++){
+            for(int j=i+1;j<n;j++){
+                int diff=Math.abs(arr[i]-arr[j]);
+                ans=Math.min(diff,ans);
+            }
+        }
+        return ans;
+    }
+
     public static void main(String[] args) {
 //        System.out.println("alhamdulillah learned github");
-        int arr[] = {1,0,6,8,0,4,8,6,0};
-        moveZerosToEnd(arr);
-        for(int i : arr){
-            System.out.print(i+" ");
-        }
+//        int arr[] = {1,0,6,8,0,4,8,6,0};
+//        moveZerosToEnd(arr);
+//        for(int i : arr){
+//            System.out.print(i+" ");
+//        }
 //        System.out.println(secLargest(arr));
+
+        int arr[]={1,8,12,5,18};
+        System.out.println(minDiff(arr));
     }
 }
