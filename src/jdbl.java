@@ -3,6 +3,8 @@ public class jdbl {
         System.out.println("Sohail");
         //start
         System.out.println("start");
+
+        System.out.println("alhamdulillah");
      }
 
 }
