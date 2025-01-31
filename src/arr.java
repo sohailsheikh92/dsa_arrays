@@ -74,7 +74,7 @@ public class arr {
         System.out.println(pairgivenSum(arr,sum));
         int summ=45;
         int n=78;
-
+        int nm=78;
 
     }
 }
