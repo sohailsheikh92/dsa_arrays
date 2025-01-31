@@ -73,6 +73,7 @@ public class arr {
         int sum=17;
         System.out.println(pairgivenSum(arr,sum));
         int summ=45;
+        int n=78;
 
 
     }
