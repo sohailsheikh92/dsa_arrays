@@ -72,6 +72,7 @@ public class arr {
         int arr[]={3,2,8,15,-8};
         int sum=17;
         System.out.println(pairgivenSum(arr,sum));
+        int summ=45;
 
 
     }
