@@ -5,6 +5,8 @@ public class jdbl {
         System.out.println("start");
 
         System.out.println("alhamdulillah");
+
+
      }
 
 }
