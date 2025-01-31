@@ -44,6 +44,18 @@ public class arr {
         return ans;
     }
 
+    //GFG Problem : Pair with given sum
+    static boolean pairgivenSum(int arr[],int sum){
+        int n=arr.length;
+        for(int i=0;i<n-1;i++){
+            for(int j=i+1;j<n;j++){
+                if(arr[i]+arr[j]==sum)
+                        return true;
+            }
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
 //        System.out.println("alhamdulillah learned github");
 //        int arr[] = {1,0,6,8,0,4,8,6,0};
@@ -53,7 +65,14 @@ public class arr {
 //        }
 //        System.out.println(secLargest(arr));
 
-        int arr[]={1,8,12,5,18};
-        System.out.println(minDiff(arr));
+//        int arr[]={1,8,12,5,18};
+//        System.out.println(minDiff(arr));
+
+        //GFG problem : Pair with a given sum
+        int arr[]={3,2,8,15,-8};
+        int sum=17;
+        System.out.println(pairgivenSum(arr,sum));
+
+
     }
 }
