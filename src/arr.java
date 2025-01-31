@@ -75,6 +75,7 @@ public class arr {
         int summ=45;
         int n=78;
         int nm=78;
+        String s="Sohail";
 
     }
 }
